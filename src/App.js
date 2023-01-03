@@ -1,15 +1,13 @@
-import './App.css';
-import { PrimerComponente } from './components/PrimerComponente';
+import React from "react";
+import Informacion from "./sections/about";
+import Presentacion from "./sections/bio";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-       
-      <PrimerComponente/>
-      </header>
-    </div>
+        <div className="App">
+          <Presentacion />
+          <Informacion />
+        </div>
   );
 }
 
