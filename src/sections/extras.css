@@ -1,0 +1,58 @@
+#seccionExtras {
+    background-color: aqua;
+
+
+}
+
+.computador {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+
+.huevoExtras {
+    width: 25%;
+    height: 25%;
+    background-color: whitesmoke;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    margin-top: 3.5rem;
+}
+
+.tituloExtra {
+    font-weight: 10000;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: #979799;
+}
+
+.programming {
+
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    font-weight: 800;
+    display: flex;
+    margin-left: 6rem;
+   
+}
+
+.development{
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: 800;
+    display: flex;
+    margin-right: 10%;   
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-bottom: 4rem;
+}

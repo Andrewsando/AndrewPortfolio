@@ -1,4 +1,51 @@
 #informacion{
     font-family: 'Merriweather', serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    margin: 4rem 8rem;
+}
+.imagenes2{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 17rem;
+    margin-left: 1rem;
+}
+.imagenes1{
+    display: flex;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 4rem;
+    margin-right: 3rem;
+}
+.orangeText{
+    color: orange
+}
+.blueText{
+    color: rgb(20, 138, 177);
+}
+.huevo {
+    width: 200px;
+    height: 180px;
+    background-color: #5cb85c;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.circulo {
+    width: 200px;
+    height: 180px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #7577ca;
+}
+.titulo{
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #353aa1;
 }

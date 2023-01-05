@@ -9,7 +9,7 @@ function Presentacion (){
                 <h1>I'm Andres Torres Sandoval</h1>
                 <h1>I'm from Bogota, Colombia</h1> 
             </div>
-            <img class="imgSaludo" src='/imagenes/imagen.png' alt="Saludo"></img>  
+            <img class="imgSaludo" src='/imagenes/Saludo.png' alt="Saludo"></img>  
         </section>
         )
       }

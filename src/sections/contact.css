@@ -1,0 +1,51 @@
+.tituloContact{
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;
+}
+.tituloText{
+    font-family: 'Merriweather', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 800;
+    padding: 3rem 0;
+    margin-right: 10%;
+}
+#contact{
+    background-color: orange;
+    padding: 5rem; 
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 2rem;  
+    flex-direction: row;     
+}
+
+.boldText{
+    font-weight: 1000;
+    color: rgb(255, 255, 255);
+}
+
+.corazon{
+    margin: 0 15px;
+    float: right;    
+}
+.corazon1{
+    margin: 0 15px;
+    float: right;
+    margin-top: 2rem; 
+    margin-right: 17rem;   
+}
+.huevo2 {
+    width: 12rem;
+    height: 12rem;
+    background-color: whitesmoke;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    
+}

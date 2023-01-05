@@ -7,12 +7,12 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2rem;    
     color: white;
-    text-align: center;
-    display: flex;    
+    text-align: center; 
   }
 
   .parrafoPresentacion{
-    margin-left: 100%;
+        margin: auto;
+        padding-top: 30px;
   }
   
   @keyframes gradient {
@@ -29,10 +29,10 @@
 
 }
 .imgSaludo{
-    width: 20rem;
-    height: 20rem;
-    margin-left: 250px;
-    margin-top: 100px;
+    width: 18rem;
+    height: 18rem;
+    margin: auto;
+    padding-top: 0px;
     
     
     
