@@ -4,9 +4,9 @@ import React from 'react';
 function Jobs (){
     return (
         
-        <section>     
+        <section id='jobs'>     
             <div>
-                <b class='jobsTitle'>Jobs done</b>
+                <b class='jobsTitle'>Projects</b>
             </div>
         </section>   
     )

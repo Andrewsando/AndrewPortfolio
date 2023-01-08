@@ -11,7 +11,7 @@
     width: 15rem;
     height: 15rem;
     margin-top: 17rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 .imagenes1{
     display: flex;
@@ -38,11 +38,12 @@
 .circulo {
     width: 200px;
     height: 180px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
     background: #7577ca;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
+    
 .titulo{
     font-weight: 1000;
     margin-bottom: 1rem;

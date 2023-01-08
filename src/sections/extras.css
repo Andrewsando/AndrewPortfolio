@@ -1,5 +1,5 @@
 #seccionExtras {
-    background-color: aqua;
+    background-color: #00e7ff;
 
 
 }
@@ -21,14 +21,13 @@
 }
 
 .tituloExtra {
-    font-weight: 10000;
-    margin-bottom: 1rem;
+ 
     font-size: 2.5rem;
-    color: #979799;
+    color: #01014b;
+
 }
 
 .programming {
-
     font-family: 'Merriweather', serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2rem;
