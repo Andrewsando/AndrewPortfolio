@@ -1,19 +1,63 @@
-
 #jobs {
   background-attachment: fixed;
   background-image: url('/public/imagenes/background.svg');
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
-  .jobsTitle{
-    font-family: 'Merriweather', serif;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 3rem;    
-    color: rgb(25, 66, 112);
-    margin:auto;
-    font-weight: 1000;  
-    display: flex;
-    justify-content: center; 
-    padding: 4rem 0;
-  }
-  
-  
-  
+
+.jobsTitle {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 3rem;
+  color: rgb(25, 66, 112);
+  margin: auto;
+  font-weight: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.projects {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: inline-block;
+  justify-content: center;
+  padding-bottom: 9rem;
+  padding-top: 3rem;
+
+}
+
+.subtitleCard {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: rgb(17, 9, 56);
+
+}
+
+#nodal {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  justify-content: center;
+}
+
+.text {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: justify;
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  color: rgb(175, 18, 18);
+}
+
+.link {
+  text-decoration: none;
+
+}
+
+.imagenCard {
+  object-fit: cover;
+}
