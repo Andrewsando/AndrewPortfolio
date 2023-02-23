@@ -5,6 +5,14 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+.cards{
+
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+
+  padding-bottom: 8rem;
+}
 .jobsTitle {
   font-family: 'Merriweather', serif;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -14,7 +22,7 @@
   font-weight: 1000;
   display: flex;
   justify-content: center;
-  padding: 4rem 0;
+  padding: 2rem 7rem;
 }
 
 .projects {

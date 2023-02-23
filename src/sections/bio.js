@@ -4,22 +4,22 @@ import { Grid, IconButton, Link, Typography } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { Stack } from "@mui/system";
 import { useWindowSize } from "../utils/screenSizeUtil";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Presentacion() {
-  const {width} = useWindowSize()
-  const isMobile = width <=720
-  
+  const { width } = useWindowSize();
+  const isMobile = width <= 900;
+  const isDesktop = width >= 1220;
+
   return (
     <section id="presentacion">
-      <Grid container spacing={2} m="0 1rem">
+      <Grid container spacing={2} minHeight="90vh">
         <Grid
           item
           sm={12}
           md={3}
           direction="column"
           justifyContent="center"
-          className="container"
         >
           <div class="shape">
             <img
@@ -37,15 +37,16 @@ function Presentacion() {
               md={2}
               direction="column"
               justifyContent="start"
-              className="container"
             >
-              <div class="shape2">
-                <img
-                  class="imgPequeSaludo"
-                  src="/imagenes/dedoArriba.png"
-                  alt="dedoArriba"
-                ></img>
-              </div>
+              {isDesktop && (
+                <div class="shape2 moveLeft">
+                  <img
+                    class="imgPequeSaludo"
+                    src="/imagenes/dedoArriba.png"
+                    alt="dedoArriba"
+                  ></img>
+                </div>
+              )}
             </Grid>
             <Grid
               item
@@ -69,31 +70,36 @@ function Presentacion() {
           item
           sm={12}
           md={6}
-          justifyContent="center"
+          direction='çolumn'
+          justifyContent="center" 
           className="parrafoPresentacion"
         >
-          <Stack spacing={5}>
-            <Typography variant="h1">¡Hello!</Typography>
-            <Typography variant="h3" fontWeight="400">
+          <Stack spacing={5} padding={4}>
+            <Typography variant="h1"><b>¡Hello!</b></Typography>
+            <Typography variant="h2" fontWeight="400">
               I'm Andres Torres Sandoval
             </Typography>
-            <Typography variant="h4">I'm front-end developer</Typography>
+            <Typography variant="h3">I'm front-end developer</Typography>
           </Stack>
         </Grid>
-        <Grid item sm={12} md={12} alignItems="center">
+        <Grid item sm={12} md={12} alignItems="center" marginTop="5rem">
           <IconButton
             color="primary"
             aria-label="upload picture"
             component="label"
             size="2rem"
+            justifyContent="center"
           >
             <Link href="https://wa.me/573057064868/" underline="hover">
               <input hidden accept="image/*" type="file" />
-              <WhatsAppIcon sx={{ color: "white",  fontSize: 40 , m: 2}} />
+              <WhatsAppIcon sx={{ color: "white", fontSize: 40, m: 2 }} />
             </Link>
-            <Link href="https://www.linkedin.com/in/andr%C3%A9s-torres-sandoval-988665175/" underline="hover">
+            <Link
+              href="https://www.linkedin.com/in/andr%C3%A9s-torres-sandoval-988665175/"
+              underline="hover"
+            >
               <input hidden accept="image/*" type="file" />
-              <LinkedInIcon sx={{ color: "white" ,  fontSize: 40, m: 2 }} />
+              <LinkedInIcon sx={{ color: "white", fontSize: 40, m: 2 }} />
             </Link>
           </IconButton>
         </Grid>

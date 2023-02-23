@@ -11,14 +11,14 @@ import BasicModalReact from "../components/NodalSkinfreshReact";
 export default function Jobs() {
   return (
     <section id="jobs">
-      <Grid container spacing={2}>
+      <Grid container spacing={2} justifyContent="center">
         <Grid item sm={12} md={12}>
           <div>
             <b class="jobsTitle">Projects</b>
           </div>
         </Grid>
-        <Grid item sm={10} md={6}>
-          <Card sx={{ maxWidth: 450 }}>
+        <Grid item sm={10} md={6} className="cards">
+          <Card sx={{ maxWidth: 450 }}className="klo">
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -41,6 +41,8 @@ export default function Jobs() {
               <BasicModal />
             </CardActions>
           </Card>
+        </Grid>
+        <Grid item sm={10} md={6} className="cards">
           <Card sx={{ maxWidth: 450 }}>
             <CardActionArea>
               <CardMedia

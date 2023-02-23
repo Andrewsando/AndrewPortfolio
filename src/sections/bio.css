@@ -7,7 +7,6 @@
   font-size: 2rem;
   color: white;
   text-align: center;
-  padding-top: 10rem;
   text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
@@ -20,72 +19,72 @@
     background-position: 100% 50%;
   }
 
-  100% {  
+  100% {
     background-position: 0% 50%;
   }
-
-
 }
 
 .imgSaludo {
-  width: 18rem;
-  height: 18rem;
+  width: 25rem;
+  height: 25rem;
   margin: auto;
-  max-height: 70vh;
-  max-width: 70vw;
+  max-height: 80vh;
+  max-width: 78vh;
 }
 
 .container {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 10rem 0;
+  margin-top: 8rem;
 }
 
 .shape {
   background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 20rem;
-  width: 20rem;
+  height: 25rem;
+  width: 25rem;
   box-shadow: 0 0 20px #000;
   margin-bottom: auto;
   max-height: 80vh;
   max-width: 80vw;
-  }
-
-  .shape2 {
-  background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
-  animation: morph 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 9rem;
-  width: 9rem;
-  box-shadow: 0 0 20px #000;  
-  justify-content: first baseline;
+  margin-left: 3rem;
 }
-  .shape3 {
+
+.shape2 {
   background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   height: 11rem;
-  width:11rem;
-  box-shadow: 0 0 20px #000;  
+  width: 11rem;
+  box-shadow: 0 0 20px #000;
+  justify-content: first baseline;
+}
+
+.shape3 {
+  background: linear-gradient(45deg, #ffffff 0%, #ffffff 100%);
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 13rem;
+  width: 13rem;
+  box-shadow: 0 0 20px #000;
   justify-content: first baseline;
 }
 
 .moveLeft {
-  translate: -50%;
+  translate: 50%;
 }
 
-.imgPequeSaludo{
-  width: 9rem;
-  height: 9rem;
+.imgPequeSaludo {
+  width: 11rem;
+  height: 11rem;
   margin: auto;
 }
 
-.imgPequePuñito{
-  width: 11rem;
-  height: 11rem;
+.imgPequePuñito {
+  width: 13rem;
+  height: 13rem;
   margin: auto;
 }
 
@@ -105,3 +104,36 @@
     background-size: 100% 100%;
   }
 }
+
+@media (min-width: 300px) {
+
+  #presentacion {
+    padding-top: 4rem;   
+    margin: 0 auto;
+
+
+  }
+
+  .imgSaludo{
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    max-height: 70vh;
+    max-width: 70vw;
+     
+  }
+  .shape{
+      margin-left: 7rem;
+
+  }
+}
+
+@media (max-width: 900px) {
+  .shape{
+margin:0 auto;
+  }
+  
+  .imgSaludo{
+margin: 0 auto;
+  }
+  }

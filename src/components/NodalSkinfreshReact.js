@@ -24,7 +24,7 @@ export default function BasicModalReact() {
 
   return (
     <div id="nodal">
-      <Button onClick={handleOpen}>More info</Button>
+      <Button onClick={handleOpen}><b>More info</b></Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -41,7 +41,7 @@ export default function BasicModalReact() {
             features are recreated
             <p>
               <a class="link" href="https://github.com/Andrewsando/skinfreshR">
-                You can see the project here
+                <b>You can see the project here</b>
               </a>
             </p>
           </Typography>

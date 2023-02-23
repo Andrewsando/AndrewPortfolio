@@ -1,18 +1,9 @@
 #seccionExtras {
     background-color: #00e7ff;
-
-
 }
 
-.computador {
-    margin: auto;
-    width: 60%;
-    height: 60%;
-}
 
 .huevoExtras {
-    width: 25%;
-    height: 25%;
     background-color: whitesmoke;
     -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -27,31 +18,19 @@
 
 }
 
+
 .programming {
     font-family: 'Merriweather', serif;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 2rem;
     color: white;
-    text-align: center;
-    padding: 4rem;
-    font-weight: 800;
-    display: flex;
-    margin-left: 6rem;
-   
+    text-align: center;   
 }
 
-.development{
-    font-family: 'Merriweather', serif;
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    padding-top: 4rem;
-    font-weight: 800;
-    display: flex;
-    margin-right: 10%;   
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-left: 8%;
-    margin-bottom: 4rem;
+@media (min-width: 300px) {
+
+    #seccionExtras {
+        padding: 3rem;
+    }
+
 }

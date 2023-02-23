@@ -24,7 +24,7 @@ export default function BasicModal() {
 
   return (
     <div id="nodal">
-      <Button onClick={handleOpen}>More info</Button>
+      <Button onClick={handleOpen}><b>More info</b></Button>
       <Modal
         open={open}
         onClose={handleClose}
@@ -46,7 +46,7 @@ export default function BasicModal() {
             user data is already requested to manage the order.
 
             <p>
-              <a class="link" href="https://github.com/Andrewsando/skinfresh">You can see the project here</a>
+              <a class="link" href="https://github.com/Andrewsando/skinfresh"><b>You can see the project here</b></a>
             </p>
           </Typography>
         </Box>

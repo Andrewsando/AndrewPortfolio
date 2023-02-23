@@ -4,21 +4,25 @@
     font-size: 22px;
     text-align: center;
     display: flex;
-    margin: 4rem 8rem;
+    margin: 2rem 2rem;
+    margin-bottom: 6rem;
+    justify-content: space-between;
 }
+
 .imagenes2{
     display: flex;
     width: 15rem;
     height: 15rem;
-    margin-top: 17rem;
     margin-left: 2rem;
+    margin-top: 35rem;
 }
 .imagenes1{
     display: flex;
     width: 15rem;
-    height: 15rem;
+    height: 3rem;
     margin-top: 4rem;
-    margin-right: 3rem;
+    margin-right: 2rem;
+
 }
 .orangeText{
     color: orange
@@ -34,7 +38,13 @@
     -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
+.huevo > img {
+    width: inherit;
+}
 
+.circulo > img {
+    width: inherit;
+}
 .circulo {
     width: 200px;
     height: 180px;
@@ -49,4 +59,19 @@
     margin-bottom: 1rem;
     font-size: 3rem;
     color: #353aa1;
+}
+
+@media (min-width: 300px) {
+
+
+#informacion {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    padding: 0rem;
+
+}}
+
+.stack {
+    margin: 0 2rem;
 }
